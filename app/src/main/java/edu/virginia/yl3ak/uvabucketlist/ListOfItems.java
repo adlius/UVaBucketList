@@ -22,7 +22,6 @@ public class ListOfItems {
         for (int i = 0; i < 20; i++) {
             Item item = new Item();
             item.setTitle("Item No." + i);
-            item.setCompleted(i%2 == 0);
             list.add(item);
         }
     }
